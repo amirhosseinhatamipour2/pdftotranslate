@@ -1,0 +1,40 @@
+{
+  "source_pdf": "examples/english_sample/english-sample.pdf",
+  "pages": [
+    {
+      "number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "background": "page-1.png",
+      "spans": [
+        {
+          "id": "p1-b0-l0-s0",
+          "text": "Hello, this is an English paragraph with one ",
+          "bbox": [72.0, 52.65, 422.0, 75.35],
+          "font": "Helvetica",
+          "size": 18.0,
+          "color": "#000000",
+          "flags": 0
+        },
+        {
+          "id": "p1-b0-l0-s1",
+          "text": "blue",
+          "bbox": [422.0, 52.65, 457.0, 75.35],
+          "font": "Helvetica",
+          "size": 18.0,
+          "color": "#0000ff",
+          "flags": 0
+        },
+        {
+          "id": "p1-b0-l0-s2",
+          "text": " word.",
+          "bbox": [457.0, 52.65, 512.0, 75.35],
+          "font": "Helvetica",
+          "size": 18.0,
+          "color": "#000000",
+          "flags": 0
+        }
+      ]
+    }
+  ]
+}
