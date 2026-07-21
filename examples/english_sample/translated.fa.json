@@ -1,0 +1,19 @@
+{
+  "translations": [
+    {
+      "id": "p1-b0-l0-s0",
+      "source": "Hello, this is an English paragraph with one ",
+      "text": "سلام، این یک پاراگراف انگلیسی با یک واژهٔ "
+    },
+    {
+      "id": "p1-b0-l0-s1",
+      "source": "blue",
+      "text": "آبی"
+    },
+    {
+      "id": "p1-b0-l0-s2",
+      "source": " word.",
+      "text": " است."
+    }
+  ]
+}

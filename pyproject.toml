@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdftotranslate"
+version = "0.1.0"
+description = "Extract styled PDF text over per-page backgrounds and translate selected spans with Gemini."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyMuPDF>=1.24.0",
+    "google-genai>=0.8.0",
+]
+
+[project.scripts]
+pdftotranslate = "pdftotranslate.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
